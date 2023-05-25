@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01cd65d2.css",
+    "main.js": "/static/js/main.884889d1.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/PlayfairDisplay-Bold.ttf": "/static/media/PlayfairDisplay-Bold.34a18e8fb1c1542162f5.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.ab37fd8f8b17807ebb1e.ttf",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9919edff6283018571ad.ttf",
+    "static/media/Lato-Bold.ttf": "/static/media/Lato-Bold.5dd5aa0269395f0ea927.ttf",
+    "index.html": "/index.html",
+    "main.01cd65d2.css.map": "/static/css/main.01cd65d2.css.map",
+    "main.884889d1.js.map": "/static/js/main.884889d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01cd65d2.css",
+    "static/js/main.884889d1.js"
+  ]
+}
