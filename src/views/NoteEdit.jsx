@@ -43,11 +43,10 @@ export const NoteEdit = () => {
       wordService.save(wordItem)
       modifyItemToSave = {...note, ...wordItem}
     } else {
-      console.log('savedItem from storage', savedItem)
+      console.log('savedItem from storage test', savedItem)
       delete savedItem._id
       modifyItemToSave = {...note, ...savedItem}
     }
-    // dispatch(modifyItemToSave ? saveNote(modifyItemToSave) : saveNote(note))
     dispatch(saveNote(modifyItemToSave))
     setNote(noteService.getEmptyNote())
     navigate('/')
