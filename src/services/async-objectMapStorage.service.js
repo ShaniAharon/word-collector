@@ -20,6 +20,7 @@ function query(entityType) {
 }
 
 function get(entityType, entityKey) {
+    entityKey = entityKey.toLowerCase()
     return query(entityType)
         .then(entitiesMap => entitiesMap[entityKey])
 }
