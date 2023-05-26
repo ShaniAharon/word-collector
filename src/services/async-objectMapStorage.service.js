@@ -29,7 +29,7 @@ function post(entityType, newEntity) {
     // newEntity._id = _makeId()
     return query(entityType)
         .then(entitiesMap => {
-            const key = newEntity.wordToTrans
+            const key = newEntity.wordToTrans.toLowerCase()
             entitiesMap[key] = newEntity
             _save(entityType, entitiesMap)
             return newEntity
@@ -39,7 +39,7 @@ function post(entityType, newEntity) {
 function put(entityType, updatedEntity) {
     return query(entityType)
         .then(entitiesMap => {
-            const entityKey = updatedEntity.wordToTrans
+            const entityKey = updatedEntity.wordToTrans.toLowerCase()
             const oldEntity = entitiesMap[entityKey]
             entitiesMap[entityKey] = { ...oldEntity, ...updatedEntity }
             _save(entityType, entitiesMap)
@@ -48,6 +48,7 @@ function put(entityType, updatedEntity) {
 }
 
 function remove(entityType, entityKey) {
+    entityKey = entityKey.toLowerCase()
     return query(entityType)
         .then(entitiesMap => {
             const entityToRemove = entitiesMap[entityKey]
