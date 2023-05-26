@@ -30,7 +30,8 @@ async function query(filterBy) {
 }
 
 async function save(word) {
-    if (word._id) {
+    const foundWord = await getByKey(word.wordToTrans)
+    if (foundWord) {
         console.log('word update', word);
         return storageService.put(STORAGE_KEY, word)
     } else {

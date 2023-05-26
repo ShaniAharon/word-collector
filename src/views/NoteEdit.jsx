@@ -44,7 +44,7 @@ export const NoteEdit = () => {
       modifyItemToSave = {...note, ...wordItem}
     } else {
       console.log('savedItem from storage test', savedItem)
-      delete savedItem._id
+      // delete savedItem._id
       modifyItemToSave = {...note, ...savedItem}
     }
     dispatch(saveNote(modifyItemToSave))
