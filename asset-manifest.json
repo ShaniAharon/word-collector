@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/word-collector/static/css/main.87f99b83.css",
-    "main.js": "/word-collector/static/js/main.11ca2e81.js",
+    "main.js": "/word-collector/static/js/main.6d4b4e4d.js",
     "static/media/Montserrat-Regular.ttf": "/word-collector/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Montserrat-Bold.ttf": "/word-collector/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
     "static/media/PlayfairDisplay-Bold.ttf": "/word-collector/static/media/PlayfairDisplay-Bold.34a18e8fb1c1542162f5.ttf",
@@ -13,10 +13,10 @@
     "static/media/Lato-Bold.ttf": "/word-collector/static/media/Lato-Bold.5dd5aa0269395f0ea927.ttf",
     "index.html": "/word-collector/index.html",
     "main.87f99b83.css.map": "/word-collector/static/css/main.87f99b83.css.map",
-    "main.11ca2e81.js.map": "/word-collector/static/js/main.11ca2e81.js.map"
+    "main.6d4b4e4d.js.map": "/word-collector/static/js/main.6d4b4e4d.js.map"
   },
   "entrypoints": [
     "static/css/main.87f99b83.css",
-    "static/js/main.11ca2e81.js"
+    "static/js/main.6d4b4e4d.js"
   ]
 }
